@@ -1,0 +1,12 @@
+GetLineCoordinate_1:
+  ros__parameters:
+    black_hue_min: 0
+    black_hue_max: 180
+    black_saturation_min: 0
+    black_saturation_max: 255
+    black_value_min: 0
+    black_value_max: 80
+    search_top: 320
+    search_bot: 350
+    search_top1: 440
+    search_bot1: 470

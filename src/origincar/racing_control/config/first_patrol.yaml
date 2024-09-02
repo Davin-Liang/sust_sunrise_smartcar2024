@@ -1,0 +1,98 @@
+# GetLineCoordinate_1:
+#   ros__parameters:
+#     # 重要 BOOL 值
+#     linkage_mode: false                         # 是否开始联动模式
+#     start_cv: false
+#     # 寻线参数
+#     follow_linear_speed: 0.6
+#     follow_angular_ratio: -0.61
+#     speed_scaling_factor: 0.025
+#     speed_scaling_max_output: 0.15
+#     # 跟踪参数
+#     confidence_threshold: 0.7
+#     trace_linear_speed: 0.18
+#     qr_area_threshold: 1500
+#     temp_scale: 30
+#     angle_ratio: 0.0044
+#     angle_x_ratio: -0.00115
+#     find_line_speed: 0.1
+#     # 避障参数
+#     avoid_angular_ratio: -0.548
+#     avoid_linear_speed: 0.35
+#     avoid_time_1: 0.7 # 0.75
+#     avoid_time_2: 2.65 # 2.75
+#     # avoid_time_3: 0.35
+#     avoid_time_4: 1.05 # 1.28
+#     avoid_time_5: 1.18 # 1.7
+#     # avoid_time_6: 0.01
+#     avoid_ratio_coefficient_1: 0.6 # 0.6
+#     avoid_ratio_coefficient_2: 0.2
+#     avoid_ratio_coefficient_3: 0.83 # 0.7
+#     bottom_threshold: 184
+#     safe_distance: 170
+#     obstacle_area_threshold: 850
+#     # PID 参数
+#     P_param: 0.00275
+#     I_param: 0.0
+#     D_param: 0.003750
+#     target_param: 0.0
+#     integral_limit_param: 0.0008
+#     max_out_param: 1.5
+    
+#     P_angle_param: 0.00355
+#     D_angle_param: 0.00055
+#     max_out_angle_param: 0.65
+
+#     P_angle_x_param: 0.0011
+#     D_angle_x_param: 0.00275
+#     max_out_angle_x_param: 0.25
+
+GetLineCoordinate_1:
+  ros__parameters:
+    # 重要 BOOL 值
+    linkage_mode: true                # 是否开始联动模式
+    start_cv: false
+    # 寻线参数
+    follow_linear_speed: 0.5
+    follow_angular_ratio: -0.61
+    speed_scaling_factor: 0.025
+    speed_scaling_max_output: 0.10
+    upupup_speed: 1.0
+    # 跟踪参数
+    confidence_threshold: 0.70
+    trace_linear_speed: 0.18
+    qr_area_threshold: 1500
+    temp_scale: 23
+    angle_ratio: 0.0044
+    angle_x_ratio: -0.00115
+    find_line_speed: 0.1
+    # 避障参数
+    avoid_angular_ratio: -0.548
+    avoid_linear_speed: 0.35
+    avoid_time_1: 0.74 # 0.75
+    avoid_time_2: 2.75 # 2.75
+    # avoid_time_3: 0.35
+    avoid_time_4: 1.28 # 1.28
+    avoid_time_5: 1.95 # 1.7
+    # avoid_time_6: 0.01
+    avoid_ratio_coefficient_1: 0.65 # 0.6
+    avoid_ratio_coefficient_2: 0.2
+    avoid_ratio_coefficient_3: 0.73 # 0.7
+    bottom_threshold: 211
+    safe_distance: 190
+    obstacle_area_threshold: 50
+    # PID 参数
+    P_param: 0.00275
+    I_param: 0.0
+    D_param: 0.003750
+    target_param: 0.0
+    integral_limit_param: 0.0008
+    max_out_param: 1.5
+    
+    P_angle_param: 0.00355
+    D_angle_param: 0.00055
+    max_out_angle_param: 0.62
+
+    P_angle_x_param: 0.0011
+    D_angle_x_param: 0.00275
+    max_out_angle_x_param: 0.25

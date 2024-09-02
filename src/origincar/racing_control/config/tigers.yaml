@@ -1,0 +1,33 @@
+GetLineCoordinate:
+  ros__parameters:
+    patrol_mode: true
+    follow_linear_speed: 0.45
+    bottom_threshold: 220
+    confidence_threshold: 0.8
+    trace_linear_speed: 0.18
+    avoid_angular_ratio: -0.548
+    avoid_linear_speed: 0.18
+    avoid_time_1: 1.55
+    avoid_time_2: 3.25
+    avoid_time_3: 0.4
+    line_avoid_time_1: 1.95
+    line_avoid_time_2: 1.75
+    line_avoid_time_3: 0.5
+    line_avoid_ratio: 0.4
+    line_follow_speed: 0.5
+    avoid_time_4: 1.35
+    avoid_time_5: 3.05
+    avoid_time_6: 0.3
+    avoid_ratio_coefficient_1: 0.4
+    avoid_ratio_coefficient_2: 1.0
+    P_param: 0.004
+    I_param: 0.00009
+    D_param: 0.00329
+    target_param: 0.0
+    integral_limit_param: 0.0008
+    max_out_param: 1.5
+    safe_distance: 300
+    obstacle_area_threshold: 4500
+    qr_area_threshold: 5000
+    follow_angular_ratio: 0.3
+    pid_mode: false

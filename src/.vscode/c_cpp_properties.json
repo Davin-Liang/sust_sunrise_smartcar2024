@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/foxy/include/**",
+        "/home/stitch/sust_tigers_ws/src/origincar/3rdparty/serial_ros2/include/**",
+        "/home/stitch/sust_tigers_ws/src/origincar/origincar_base/include/**",
+        "/home/stitch/sust_tigers_ws/src/origincar/racing_control/include/**",
+        "/home/stitch/sust_tigers_ws/src/origincar/racing_track_detection_resnet-develop/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
