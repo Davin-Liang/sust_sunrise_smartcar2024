@@ -47,7 +47,8 @@ class PoseArrayPublisher(Node):
                 self.get_logger().warn('Failed to generate a pose that meets the distance requirement')
 
         self.publisher_.publish(pose_array)
-        self.get_logger().info('Published PoseArray with 3 poses')
+        self.get_logger().info('已发布话题!!!!!!')
+        print(" ")
 
     def is_far_enough(self, new_pose, existing_poses):
         for pose in existing_poses:
